@@ -1,4 +1,4 @@
-class solution {
+class Solution {
     public String longestCommonPrefix(String[] strs) {
 
         String commone = "";
@@ -9,7 +9,7 @@ class solution {
 
         for(int n =0; n<strs.length;n++){
 
-           if( i>strs[n].length() || c != strs[n].charAt(i) ){// if there is no charecter at the index of 'n' or the charecter is not a common prefix then exit and return the collected charecters... otherwise contenue
+           if( i>=strs[n].length() || c != strs[n].charAt(i) ){// if there is no charecter at the index of 'n' or the charecter is not a common prefix then exit and return the collected charecters... otherwise contenue
             return commone;
            }
 
