@@ -3,7 +3,7 @@ class Solution {
 
         String commone = "";
         
-    for(int i = 0; i<strs[0].length();i++){//nested loop to search in the array
+    for(int i = 0; i<strs[0].length();i++){//nested loop to search in the array.
 
         char c =strs[0].charAt(i); 
 
